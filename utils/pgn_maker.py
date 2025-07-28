@@ -6,4 +6,4 @@ def make_pgn(input_path, output_path):
         dctx.copy_stream(compressed, out)
 
 if __name__ == "__main__":
-    make_pgn("data/raw/lichess_db_broadcast_2024-12.pgn.zst", "data/raw/data7.pgn")
+    make_pgn("data/raw/lichess_db_broadcast_2025-06.pgn.zst", "data/raw/data.pgn")

@@ -80,7 +80,7 @@ def extract_all_fen_move_pairs(pgn_path, output_path, min_elo=2000):
 
 if __name__ == "__main__":
     extract_all_fen_move_pairs(
-        pgn_path="data/raw/data7.pgn",
-        output_path="data/processed/kg6.csv",
+        pgn_path="data/raw/2600-.pgn",
+        output_path="data/processed/data1.csv",
         min_elo=2000
     )
